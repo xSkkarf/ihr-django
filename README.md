@@ -206,6 +206,6 @@ Go to http://127.0.0.1:8000/hegemony/ to check if it is working.
 To redirect all API calls to the local django server you should change the API
 URL in ihr-website/src/plugins/IhrApi.js:
 ```js
-const IHR_API_BASE = 'http://127.0.0.1:8000/'
+const IHR_API_BASE = 'http://127.0.0.1:8000/ihr/api/'
 ```
 
